@@ -14,14 +14,6 @@ public class FrontController {
 		return "index";
 	}
 	
-//	
-//	@PostMapping("/submit")
-//	public String get(@RequestParam String name, Model model) {
-//		
-//		model.addAttribute("key",name);
-//		return "index";
-//	}
-	
 	@PostMapping("/submit")
 	@ResponseBody
 	public String get(@RequestParam String name) {
